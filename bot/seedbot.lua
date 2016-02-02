@@ -469,7 +469,8 @@ to remove an admin from global admins
 
 !plugins enable, disable {name}
 To Disableor enable  the plugins
-برای فعال و غیرفعال کردن پلاگین مورد نظر 🚀
+
+‼️از دستورات بدون علامت تعجب ! یا اسلش / هم میتوانید استفاده کنید 💢برای فعال و غیرفعال کردن پلاگین مورد نظر 🚀
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
