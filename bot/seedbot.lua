@@ -326,112 +326,150 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
+@B3xTr Help:
 
-!kick [username|id]
-You can also do it by reply
+!kick @Username or ID
+شخصی را از گروه حذف کنید . همچنین با ریپلی هم میشه🚀
 
-!ban [ username|id]
-You can also do it by reply
 
-!unban [id]
-You can also do it by reply
+!Ban @UserName or ID
+برای بن کردن شخص اسفاده میشود . با ریپلی هم میشه🚀
 
-!who
-Members list
 
-!modlist
-Moderators list
+!Unban @UserName
+برای آنبن کردن شخصی استفاده میشود . همچنین با ریپلی هم میشه🚀
 
-!promote [username]
-Promote someone
+For Admins :
 
-!demote [username]
-Demote someone
+!banall ID
+برای بن گلوبال کردن از تمامی گروه هاست باید ای دی بدین با ریپلی هم میشه🚀
 
-!kickme
-Will kick user
+!unbanall ID
+برای آنبن کردن استفاده میشود ولی فقط با ای دی میشود🚀
 
-!about
-Group description
+〰〰〰〰〰〰〰〰〰〰
+2. GroupManager :
 
-!setphoto
-Set and locks group photo
+!lock leave
+اگر کسی از گروه برود نمیتواند برگردد🚀
 
-!setname [name]
-Set group name
+!lock tag
+برای مجوز ندادن به اعضا از استفاده کردن @  و #  برای تگ🚀
 
-!rules
-Group rules
 
-!id
-return group id or user id
+!Creategp "GroupName"
+you can Create group with this comman
+با این دستور برای ساخت گروه استفاده بکنید
 
-!help
 
-!lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+!lock member
+For locking Inviting users
+برای جلوگیری از آمدن اعضای جدید استفاده میشود🚀
 
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
 
-!set rules <text>
-Set <text> as rules
+!lock bots
+for Locking Bots invitation
+برای جلوگیری از ادد کردن ربا استفاده میشود🚀
 
-!set about <text>
-Set <text> as about
 
-!settings
-Returns group settings
+!lock name ❤️
+To lock the group name for every bodey
+برای قفل کردن اسم استفاده میشود🚀
+!setfloodߘ㊓et the group flood control߈銙囌زان اسپم را در گروه تعیین میکنید
 
-!newlink
-create/revoke your group link
-
-!link
-returns group link
+!settings ❌
+Watch group settings
+تنظیمات فعلی گروه را میبینید🚀
 
 !owner
-returns group owner id
+watch group owner
+آیدی سازنده گروه رو میبینید🚀
 
-!setowner [id]
-Will set id as owner
+setowner user_id❗️
+You can set someone to the group owner‼️
+برای گروه سازنده تعیین میکنید 🚀
 
-!setflood [value]
-Set [value] as flood sensitivity
+!modlist
+catch Group mods
+لیست مدیران گروه را میگیرید🚀
 
-!stats
-Simple message statistics
-
-!save [value] <text>
-Save <text> as [value]
-
-!get [value]
-Returns text of [value]
-
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-returns user id
-"!res @username"
-
-!log
-will return group logs
-
-!banlist
-will return group ban list
-
-**U can use both "/" and "!" 
+!lock join 
+to lock joining the group by link
+برای جلوگیری از وارد شدن به کروه با لینک🚀
 
 
-*Only owner and mods can add bots in group
+!lock flood⚠️
+lock group flood
+از اسپم دادن در گروه جلوگیری کنید🚀
+
+!unlock (bots-member-flood-photo-name-tag-link-join-Arabic)✅
+Unlock Something
+موارد بالا را با این دستور آزاد میسازید🚀
+
+!rules  && !set rules
+TO see group rules or set rules
+برای دیدن قوانین گروه و یا وضع قوانین 🚀
+
+!about or !set about
+watch about group or set about
+در موردگروه توضیحات تعیین شده را میدهد و یا توضیحات گروه رو تعیین کنید🚀 
+
+!res @username
+see Username INfo
+در مورد اسم و ای دی شخص بهتون میده 🚀
+
+!who♦️
+Get Ids Chat
+امی ای دی های موجود در چت رو بهتون میده🚀
+
+!log 
+get members id ♠️
+تمامی فعالیت های انجام یافته توسط شما و یا مدیران رو نشون میده🚀
+
+!all
+Says every thing he knows about a group
+در مورد تمامی اطلاعات ثبت شده در مورد گروه میدهد🚀
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+!newlink
+Changes or Makes new group link
+لینک گروه رو عوض میکنه 🚀
 
-*Only owner can use res,setowner,promote,demote and log commands
+!getlink
+gets The Group link
+لینک گروه را در گروه نمایش میده🚀
 
-]]
+!linkpv
+sends the group link to the PV
+برای دریافت لینک در پی وی استفاده میشود🚀
+〰〰〰〰〰〰〰〰
+Admins :®
+!add
+to add the group as knows
+برای مجوز دادن به ربات برای استفاده در گروه🚀
+
+
+!rem
+to remove the group and be unknown
+برای ناشناس کردن گروه برای ربات توسط مدیران اصلی
+
+!setowner  user_id ⚫️
+For Set a Owner of group from realm
+ برای تعیین سازنده ای برای گروه  از گروه اصلی
+
+!addadmin [Username]
+to add a Global admin to the bot
+برای ادد کردن ادمین اصلی ربات
+
+
+!removeadmin [username]
+to remove an admin from global admins
+برای صلب ادمینی از ادمینای اصلی
+
+
+!plugins enable, disable {name}
+To Disableor enable  the plugins
+برای فعال و غیرفعال کردن پلاگین مورد نظر 🚀
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
