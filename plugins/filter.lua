@@ -128,9 +128,9 @@ end
 
 return {
 	patterns = {
-		"^([/!]filter) (.+) (%d+)$",
-		"^([/!]filter) (.+) (.+)$",
-		"^([/!]filter) (.+)$",
+		"^(filter) (.+) (%d+)$",
+		"^(filter) (.+) (.+)$",
+		"^(filter) (.+)$",
 		"(.+)"
   	},
   	run = run
